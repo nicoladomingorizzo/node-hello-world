@@ -1,3 +1,12 @@
 console.log('Hello Boolean');
 
-console.log(process.env);
+console.log(process.env.SECRET_PASSWORD);
+import axios from 'axios';
+import chalk from 'chalk';
+
+axios.get('https://lanciweb.github.io/demo/api/pictures/?id=6')
+    .then(response => {
+        const imgApi = response.data;
+    })
+    .then(() => {
+    });
