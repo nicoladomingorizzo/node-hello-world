@@ -7,6 +7,7 @@ import chalk from 'chalk';
 axios.get('https://lanciweb.github.io/demo/api/pictures/?id=6')
     .then(response => {
         const imgApi = response.data;
+        console.log(imgApi)
     })
     .then(() => {
     });
