@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "watch": "node --watch index.js"
+    "watch": "node --env-file=.env --watch index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
     "url": "https://github.com/nicoladomingorizzo/node-hello-world/issues"
   },
   "homepage": "https://github.com/nicoladomingorizzo/node-hello-world#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
 }
