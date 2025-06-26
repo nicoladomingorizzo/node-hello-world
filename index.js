@@ -1,6 +1,6 @@
-console.log('Hello Boolean');
+console.log(chalk.blue('Hello') + ' ' + 'Boolean');
 
-console.log(process.env.SECRET_PASSWORD);
+console.log(chalk.bgRed.bold.underline(process.env.SECRET_PASSWORD));
 import axios from 'axios';
 import chalk from 'chalk';
 
